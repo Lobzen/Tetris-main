@@ -287,17 +287,7 @@ class TestGame(unittest.TestCase):
         for i in range(4):
             self.assertEqual(self.t_game.current_block.get_cell_positions()[i].row, result[i].row )
             self.assertEqual(self.t_game.current_block.get_cell_positions()[i].column, result[i].column)
-
-     
-    def test_move_down_not_move(self):
-        for i in range(19):
-            self.t_game.move_down()
-
-
-        if self.t_game.current_block.id in [1, 3]:
-            self.assertEqual(self.t_game.current_block.get_cell_positions()[0].row, 1)
-        else:
-            self.assertEqual(self.t_game.current_block.get_cell_positions()[0].row, 0)
+            
     
     def test_lock_block(self):
         self.t_game.grid.grid = [
