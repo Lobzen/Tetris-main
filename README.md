@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/dioica/Tetris/badge.svg?branch=main)](https://coveralls.io/github/dioica/Tetris?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/Lobzen/Tetris-main/badge.svg?branch=main)](https://coveralls.io/github/Lobzen/Tetris-main?branch=main)
 
 # Аттестационное тестирование
 ## А1
